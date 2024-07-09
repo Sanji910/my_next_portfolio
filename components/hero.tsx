@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaLanguage, FaLocationArrow } from "react-icons/fa6";
+import {FaLocationArrow } from "react-icons/fa6";
 
 import { Spotlight } from "@/components/ui/spotlight";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
@@ -48,7 +48,7 @@ export const Hero = () => {
               asChild
             />
           </Link>
-          <Link href="https://drive.google.com/file/d/1pF-iKNF9Cc5i1ZyxfbH4NXLSsmfsFuve/view" className="md:mt-10 flex">
+          <Link href="https://drive.google.com/file/d/1o3Prp9i_PNUpt__qCfxDE-4aapVHWE0j/view" className="md:mt-10 flex">
             <MagicButton
               title="My Resume"
               icon={<FaLocationArrow />}
