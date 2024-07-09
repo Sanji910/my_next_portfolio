@@ -74,7 +74,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "NIKE - Shoe-Store-Frontend",
+    title: "EWG's Healthy Living",
     // des: "A collaborative design tool with real-time collaboration, vector editing, and a responsive UI.",
     img: "/3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
