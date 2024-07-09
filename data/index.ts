@@ -84,7 +84,7 @@ export const projects = [
     title: "EWG's Healthy Living ",
     img: "/3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://play.google.com/store/apps/details?id=com.skindeep.mobile&hl=en_US&gl=US",
+    link: "https://drive.google.com/file/d/1hx5iFcjy_EYixEwlCtPoMcZ_zJ5M-apd/view",
   },
   {
     id: 3,
