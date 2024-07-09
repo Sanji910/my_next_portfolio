@@ -74,18 +74,18 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "EWG's Healthy Living",
-    // des: "A collaborative design tool with real-time collaboration, vector editing, and a responsive UI.",
-    img: "/3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://play.google.com/store/apps/details?id=com.skindeep.mobile&hl=en_US&gl=US",
-  },
-  {
-    id: 2,
     title: "3D Infinite",
+    // des: "A collaborative design tool with real-time collaboration, vector editing, and a responsive UI.",
     img: "/img2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shopify.svg"],
     link: "HTTPS://3DINFINITE.COM/",
+  },
+  {
+    id: 2,
+    title: "EWG's Healthy Living ",
+    img: "/3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg "],
+    link: "https://play.google.com/store/apps/details?id=com.skindeep.mobile&hl=en_US&gl=US",
   },
   {
     id: 3,
