@@ -8,11 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "author": {
-    "name": "Jonny Steven Perdomo Virguez",
-    "email": "stevenperdomo2424@gmail.com",
-    "url": "https://github.com/Jonny0301"
-  },
+  "author": "Jonny Steven Perdomo Virguez <stevenperdomo2424@gmail.com> (https://github.com/Jonny0301)",
   "description": "Modern & Minimalist Next.js Portfolio.",
   "keywords": [
     "reactjs",
@@ -103,5 +99,9 @@
     "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   }
 }
