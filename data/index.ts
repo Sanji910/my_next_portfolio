@@ -83,7 +83,7 @@ export const projects = [
   {
     id: 2,
     title: "3D Infinite",
-    img: "/p2.PNG",
+    img: "/img2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shopify.svg"],
     link: "HTTPS://3DINFINITE.COM/",
   },
