@@ -81,10 +81,10 @@ export const projects = [
   },
   {
     id: 2,
-    title: "EWG's Healthy Living ",
-    img: "/3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://play.google.com/store/apps/details?id=com.skindeep.mobile&hl=en_US&gl=US",
+    title: "HENDY GROUP",
+    img: "/p.png",
+    iconLists: ["/next.svg", "/css-3.svg", "/ts.svg" , "/angular-icon-1.svg"],
+    link: "https://www.hendy.co.uk/",
   },
   {
     id: 3,
@@ -92,21 +92,6 @@ export const projects = [
     img: "/p2.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://ai-imaginify.netlify.app",
-  },
-  {
-    id: 4,
-    title: "HENDY GROUP",
-    img: "/p.png",
-    iconLists: ["/next.svg", "/css-3.svg", "/ts.svg" , "/angular-icon-1.svg"],
-    link: "https://www.hendy.co.uk/",
-  },
-  {
-    id: 4,
-    title: "MarketingBlocks",
-    img: "/p3.png",
-    iconLists: ["/next.svg", "bootstrap-5-1.svg", "/ts.svg", "/javascript-1.svg", "/react-2.svg"],
-    link: "HTTPS://HEY.MARKETINGBLOCKS.AI/",
-    // sourceCode: "https://github.com/sanidhyy/apple-clone",
   },
   {
     id: 4,
@@ -141,33 +126,85 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "react",
+    img: "/react-2.svg",
+    title:"React.js"
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "js",
+    img: "/javascript-1.svg",
+    title:"Javascript"
+
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "bootstrap.",
+    img: "/bootstrap-5-1.svg",
+    title:"Bootstrap"
+
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "ts.",
+    img: "/ts.svg",
+    title:"TypeScript"
+
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "next",
+    img: "/next.svg",
+    title:"Next.js"
+
+  },
+  {
+    id: 6,
+    name: "tail",
+    img: "/tail.svg",
+    title:"Tailwind Css"
+
+  },
+  {
+    id: 7,
+    name: "css",
+    img: "/css-3.svg",
+    title:"CSS 3"
+
+  },
+  {
+    id:8,
+    name:"angular",
+    img:"/angular-icon-1.svg",
+    title:"Angular.js"
+  },
+  {
+    id: 9,
+    name: "shopify",
+    img: "/shopify.svg",
+    title:"Shopify"
+
+  },
+  {
+    id: 20,
+    name: "solana.",
+    img: "/solana.svg",
+    title:"Solana"
+
+  },
+  {
+    id: 21,
+    name: "three.",
+    img: "/three.svg",
+    title:"Three.js"
+
+  },
+  {
+    id: 22,
+    name: "blockchain",
+    img: "/blockchain.svg",
+    title:"Blockchain"
+
   },
 ] as const;
 
@@ -211,11 +248,6 @@ export const socialMedia = [
     name: "GitHub",
     img: "/git.svg",
     link: "https://github.com/Jonny0301",
-  },
-  {
-    name: "Twitter",
-    img: "/twit.svg",
-    link: "https://twitter.com",
   },
   {
     name: "LinkedIn",

@@ -19,26 +19,26 @@ export const Clients = () => {
           />
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 max-lg:mt-10 md:gap-16">
-          {companies.map(({ id, img, name, nameImg }) => (
-            <div key={id} className="flex max-w-32 gap-2 md:max-w-60">
+        <div className="flex w-full flex-col flex-wrap items-center justify-center gap-4 max-lg:mt-10 md:gap-16">
+          <div className="flex w-full justify-center items-center">
+            <h1 className="heading">
+              My<span className="text-purple"> {" "}Skills</span>
+            </h1>
+          </div>
+          <div className="flex w-full justify-center items-center grid grid-cols-5 lg:grid-cols-6">
+          {companies.map(({ id, img, name,title }) => (
+            <div key={id} className="flex flex-col items-center justify-center max-w-32 gap-2 md:max-w-60 py-10">
               <Image
                 height={29}
                 width={43}
                 src={img}
                 alt={`${name}'s logo`}
-                className="w-5 md:w-10"
+                className="w-5 md:w-10 h-5 md:h-10"
               />
-
-              <Image
-                height={28}
-                width={131}
-                src={nameImg}
-                alt={name}
-                className="w-20 md:w-24"
-              />
+              <p>{title}</p>
             </div>
           ))}
+            </div>
         </div>
       </div>
     </section>
