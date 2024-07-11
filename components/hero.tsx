@@ -48,13 +48,15 @@ export const Hero = () => {
               asChild
             />
           </Link>
-          <Link href="https://drive.google.com/file/d/1hx5iFcjy_EYixEwlCtPoMcZ_zJ5M-apd/view" className="md:mt-10 flex">
+          <Link href="https://drive.google.com/file/d/1hx5iFcjy_EYixEwlCtPoMcZ_zJ5M-apd/view" className="md:mt-10 flex" legacyBehavior>
+          <a className="md:mt-10 flex" target="_blank" rel="noopener noreferrer">
             <MagicButton
               title="My Resume"
               icon={<FaLocationArrow />}
               position="right"
               asChild
             />
+            </a>
           </Link>
       </div>
         </div>

@@ -211,7 +211,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Juvo Company",
+    title: "Juvo",
     date:"07/2015 ~ 07/2017",
     desc: "I developed and maintained robust web applications using JavaScript, HTML5, CSS3, and PHP Laravel, focusing on security, performance, and scalability. ",
     className: "md:col-span-2",
@@ -219,7 +219,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "SaltStack For DevOps Company",
+    title: "SaltStack For DevOps",
     date:"08/2017 ~ 03/2019",
     desc: "I led the development of scalable web applications using React, Angular, and Vue.js, ensuring seamless user experiences.",
     className: "md:col-span-2", // change to md:col-span-2
@@ -227,7 +227,7 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "CPS Innovations Company",
+    title: "CPS Innovations",
     date:"04/2019 ~ 09/2021",
     desc: "I significantly increased user engagement by 30% through a customer portal redesign, enhancing UX and retention",
     className: "md:col-span-2", // change to md:col-span-2
@@ -235,7 +235,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Codevico Company",
+    title: "Codevico",
     date:"10/2021 ~ 04/2024",
     desc: "I developed a website using React.js aimed at resource conservation. ",
     className: "md:col-span-2",

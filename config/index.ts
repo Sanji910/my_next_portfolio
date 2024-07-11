@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const links = {
   sourceCode: "https://github.com/Jonny0301",
-  ownerName: "Jonny Steven",
+  ownerName: "Jonny Steven Perdomo Virguez",
   ownerEmail: "stevenperdomo2424@gmail.com",
 } as const;
 
